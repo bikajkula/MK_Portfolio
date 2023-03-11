@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MK Portfolio</title>
+		<meta charset="utf-8">
+	    <meta name="author" content="Mihajlo Karadzic" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/style.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid" id="top">
+			<nav class="navbar navbar-expand-sm justify-content-center navbar-dark">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/favicon.png" alt="logo" style="width:40px;">
+			    </a>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aboutme.html">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+				<a class="navbar-brand" href="index.html">
+					<img src="images/favicon.png" alt="logo" style="width:40px;">
+			    </a>
+			</nav>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-12">
+						<form method="post" action="action_page.php">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_name">Firstname<img class="contimg" src="images/favicon.png"></img></label>
+											<input id="form_name" type="text" name="name" class="form-control" placeholder="Your firstname *" required>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_lastname">Lastname<img class="contimg" src="images/favicon.png"></img></label>
+											<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Your lastname *" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_email">Email<img class="contimg" src="images/favicon.png"></img></label>
+											<input id="form_email" type="email" name="email" class="form-control" placeholder="Your email *" required>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_phone">Phone</label>
+											<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Your phone">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="form-group">
+											<label for="form_message">Message<img class="contimg" src="images/favicon.png"></img></label>
+											<textarea id="form_message" name="message" class="form-control" placeholder="Your message*" rows="4" required></textarea>
+											<div class="row checkbox-row">
+												<div class="col-md-12">
+													<div class="checkbox-inline" style="text-align:center;">
+													    <label class="checkbox-inline"><input type="checkbox" value="">Get notified on my latest projects.</label>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12 text-center">
+													<p>Purpose of this message:</p>
+													<div class="radio-inline" style="text-align:center;">
+													    <label class="radio-inline"><input name="radioGroup" type="radio" value="option1">Business</label>
+													    <label class="radio-inline"><input name="radioGroup" type="radio" value="option2">Personal</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								
+									<div class="col-md-12 text-center">
+										<input type="submit" class="btn btn-info btn-send" value="Submit">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12 text-center mb-4">
+										<p><img class="contimg" src="images/favicon.png"></img> These fields are required.</p>
+									</div>
+								</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 footer">
+					<nav id="about-bar">
+						<ul>
+							<li><a href="https://www.flickr.com/" class="fa fa-flickr"></a></li>
+							<li><a href="https://www.linkedin.com/" class="fa fa-linkedin"> </a> </li>
+							<li><a href="https://www.google.com/" class="fa fa-google-plus"></a></li>
+							<li><a href="https://www.twitter.com/" class="fa fa-twitter"></a></li>
+							<li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="totop">
+				<a href="#top">
+					<img class="top" src="images/top.png" alt="BackToTop">
+				</a>
+			</div>
+			<footer>
+				<span>Copyright &copy; MihajloK 2023 &bull;</span>
+			</footer>
+		</div>
+	</body>
+</html>
